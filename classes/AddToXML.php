@@ -6,9 +6,7 @@ class AddToXML
     {
 
 
-        spl_autoload_register(function ($class) {
-            include $class . '.php';
-        });
+       
 
 
         $error = new Response();
